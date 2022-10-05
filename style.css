@@ -1,0 +1,101 @@
+body {
+  font-family: Lexend;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  background-color: #232539;
+}
+
+h1 {
+  font-family: Anton;
+  color : #FFFFFF;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: Lexend;
+  color: #CEA870;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: Lexend;
+  color: #CEA870;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline ;
+}
+
+a {
+  font-family: Lexend;
+  color: #FEFAF4;
+  font-weight: bold;
+  text-decoration:none;
+  background-color: #CEA870;
+  transition: .3s;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+p {
+  font-family: Lexend;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+  transition: .3s;
+}
+
+.footer {
+	background-color: #CEA870;
+	padding: 1px 0;
+}
+
+card img {
+	width: 300px;
+	height: 150px;
+}
+
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,10.6)), url('images/Radisson.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+
+.button {
+  background-color: #CEA870;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: .3s;
+}
+
+.card {
+  background: #0C0C1E;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 300px;
+  height: 225px;
+  text-align: center;
+  padding: 24px;
+  margin: 10px;
+}
+
+
+.card img {
+  width: 300px;
+  height: 150px;
+  object-fit: align;
+  border-radius: 4px;
+}
+
+.cards {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
